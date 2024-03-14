@@ -1,10 +1,6 @@
 // Write your solution here!
 const cats=["Milo","Otis","Garfield"]
 
-function destructivelyAppendCat(){
-    cats.push("Ralph")
-}
-
 function destructivelyPrependCat(){
     cats.length = 0;
   cats.push("Milo", "Otis", "Garfield");
